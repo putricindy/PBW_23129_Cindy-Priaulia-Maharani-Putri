@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Cindy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="feminine-nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span>Cindy</span>
+                    <div class="flower-icon"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+<section id="home" class="feminine-hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Halo, Saya <span>Cindy</span></h1>
+            <p class="subtitle">IT Security</p>
+            <p class="hero-desc">Mengidentifikasi, Menganalisis, dan Mengatasi potensi serangan siber serta memantapkan keamanan informasi tetap terjaga.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <a href="#portfolio" class="btn btn-secondary">My Experience</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="cc.jpeg" alt="Foto Profil Cindy" class="profile-photo">
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="feminine-about">
+    <div class="section-header">
+        <h2>About <span>Me!</span></h2>
+        <div class="flower-divider"></div>
+    </div>
+    <div class="about-container">
+        <div class="about-content">
+            <div class="about-content">
+                <p>Saya Cindy Priaulia Maharani Putri, seorang seorang mahasiswa Informatika Fakultas Ilmu Komputer di Universitas Singaperbangsa Karawang. Saya menyukai Cyber Security dan sedang mempelajarinya lebih dalam.</p>
+                
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span>Nama Lengkap:</span>
+                        <p>Cindy Priaulia Maharani Putri</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Keahlian:</span>
+                        <p>Cyber Security</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Hobi:</span>
+                        <p>Fotografi, Mendengarkan Lagu, Menulis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="portfolio" class="feminine-portfolio">
+        <div class="section-header">
+            <h2>Experience</span></h2>
+            <div class="flower-divider"></div>
+        </div>
+        <div class="portfolio-container">
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="feminine-contact">
+        <div class="section-header">
+            <h2>Get <span>In <span> Touch</span></h2>
+            <div class="flower-divider"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Mari Bekerja Sama</h3>
+                <p>Saya terbuka untuk proyek freelance dan kolaborasi.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>2310631170129@student.unsika.ac.id</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+62 822 1020 5021</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/cindyptrri_?igsh=MWttMGswdWM2MXZmcA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/cindy-putri-1620a6254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form" action="php/contact.php" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Pesan" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Sent Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="feminine-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span>Cindy's Journey</span>
+                <div class="flower-icon"></div>
+            </div>
+            <p>© 2023 Cindy Priaulia Maharani Putri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
